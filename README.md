@@ -1,4 +1,4 @@
-# dom-walk [![build status][1]][2]
+# dom-walk
 
 iteratively walk a DOM node
 
@@ -16,15 +16,8 @@ walk(document.body.childNodes, function (node) {
 
 `npm install dom-walk`
 
-## Tests
-
-`make test`
-
 ## Contributors
 
  - Raynos
 
 ## MIT Licenced
-
-  [1]: https://secure.travis-ci.org/Raynos/dom-walk.png
-  [2]: http://travis-ci.org/Raynos/dom-walk
