@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Raynos/dom-walk.png)](http://travis-ci.org/Raynos/dom-walk)
 # dom-walk
 
 iteratively walk a DOM node
