@@ -3,6 +3,10 @@ var slice = Array.prototype.slice
 module.exports = iterativelyWalk
 
 function iterativelyWalk(nodes, cb) {
+    if (!('length' in nodes)) {
+        nodes = [nodes]
+    }
+    
     nodes = slice.call(nodes)
 
     while(nodes.length) {
