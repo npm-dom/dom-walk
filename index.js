@@ -17,7 +17,7 @@ function iterativelyWalk(nodes, cb) {
             return ret
         }
 
-        if (node.childNodes.length) {
+        if (node.childNodes && node.childNodes.length) {
             nodes = slice.call(node.childNodes).concat(nodes)
         }
     }
