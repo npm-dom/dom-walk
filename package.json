@@ -1,6 +1,6 @@
 {
   "name": "dom-walk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "iteratively walk a DOM node",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "browserify-server": "~0.5.6"
   },
+  "files": [],
   "licenses": [
     {
       "type": "MIT",
