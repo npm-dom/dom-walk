@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "browserify-server": "~0.5.6"
+    "budo": "11.6.3"
   },
   "licenses": [
     {
@@ -26,5 +26,7 @@
       "url": "http://github.com/Raynos/dom-walk/raw/master/LICENSE"
     }
   ],
-  "scripts": {}
+  "scripts": {
+    "example": "budo example/index.js"
+  }
 }
